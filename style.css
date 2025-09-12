@@ -1413,7 +1413,7 @@ footer .container {
 
        
 
-        .grid-overlay {
+        /* .grid-overlay {
             position: absolute;
             top: 0;
             left: 0;
@@ -1424,9 +1424,9 @@ footer .container {
                 linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
                 linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
             z-index: 2;
-        }
+        } */
 
-        .glow {
+        /* .glow {
             position: absolute;
             width: 40vw;
             height: 40vh;
@@ -1437,7 +1437,7 @@ footer .container {
             z-index: 2;
             animation: pulse 8s infinite alternate;
             filter: blur(30px);
-        }
+        } */
 
         
         .particles-container {
