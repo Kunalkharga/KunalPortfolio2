@@ -1058,7 +1058,7 @@ footer .container {
     padding: 10px;
     
   }
-  }
+
   
   .project-card h3 {
     font-size: 1.3rem;
@@ -1074,6 +1074,7 @@ footer .container {
     text-align: left !important;
     justify-content: flex-start !important;
   }
+
 }
 
 /* Very small devices */
