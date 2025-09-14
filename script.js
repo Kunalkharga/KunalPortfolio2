@@ -235,3 +235,76 @@ gsap.from(".education-item i", {
         start: "top 80%",
     }
 });
+
+
+
+
+
+
+
+// Updated Hamburger Menu Toggle - Replace previous JS in script.js
+const hamburger = document.querySelector('.hamburger');
+const navUl = document.querySelector('nav ul');
+
+if (hamburger && navUl) {
+    hamburger.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const isCurrentlyActive = navUl.classList.contains('active');
+        
+        if (isCurrentlyActive) {
+            // Smooth close: Reverse the animation
+            hamburger.classList.remove('active');
+            document.body.classList.remove('menu-open');
+            navUl.classList.remove('active');
+            // Let CSS handle the slide-out transition; visibility hidden after delay
+            setTimeout(() => {
+                navUl.style.visibility = 'hidden';
+            }, 400); // Match 0.4s transition
+        } else {
+            // Smooth open
+            hamburger.classList.add('active');
+            document.body.classList.add('menu-open');
+            navUl.style.visibility = 'visible';
+            navUl.classList.add('active');
+        }
+    });
+
+    // Close menu when clicking on a link
+    document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', function() {
+            if (navUl.classList.contains('active')) {
+                hamburger.classList.remove('active');
+                document.body.classList.remove('menu-open');
+                navUl.classList.remove('active');
+                setTimeout(() => {
+                    navUl.style.visibility = 'hidden';
+                }, 400);
+            }
+        });
+    });
+
+    // Close menu on outside click (for mobile)
+    document.addEventListener('click', function(e) {
+        if (window.innerWidth <= 768 && 
+            !e.target.closest('nav') && 
+            navUl.classList.contains('active')) {
+            hamburger.classList.remove('active');
+            document.body.classList.remove('menu-open');
+            navUl.classList.remove('active');
+            setTimeout(() => {
+                navUl.style.visibility = 'hidden';
+            }, 400);
+        }
+    });
+
+    // Animate hamburger on page enter (removed scroll listener to prevent movement)
+    gsap.from(".hamburger", { 
+        opacity: 0, 
+        y: -20, 
+        duration: 0.8, 
+        delay: 0.3, 
+        ease: "power2.out" 
+    });
+} else {
+    console.error('Hamburger or nav ul not found');
+}
