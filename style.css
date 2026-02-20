@@ -158,6 +158,33 @@ nav a:hover {
     color: #ccc;
 }
 
+/* Scroll indicator */
+.scroll-indicator {
+    position: absolute; bottom: 40px;
+    display: flex; flex-direction: column; align-items: center; gap: 8px;
+    font-family: var(--font); font-size: 0.7rem;
+    color: rgba(255,255,255,0.4); letter-spacing: 0.1em;
+    animation: fadeInUp 0.7s 0.7s ease both;
+    z-index: 5;
+}
+.mouse {
+    width: 22px; height: 36px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 12px;
+    display: flex; justify-content: center; padding-top: 5px;
+}
+.wheel {
+    width: 3px; height: 7px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 2px;
+    animation: scrollWheel 1.8s ease infinite;
+}
+@keyframes scrollWheel {
+    0%   { transform: translateY(0); opacity: 1; }
+    80%  { transform: translateY(12px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 0; }
+}
+
 .grid-overlay {
     position: absolute;
     top: 0;
