@@ -568,6 +568,16 @@ nav a:hover {
     color: #ddd;
 }
 
+.education-item a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.education-item a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 
 /* Projects Section */
 #projects {
