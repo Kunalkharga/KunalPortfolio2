@@ -1,26 +1,40 @@
-🚀 Features
-Fully responsive portfolio website
-Modern dark-themed UI design
-Smooth scrolling effects
-Interactive animations
-Skills showcase section
-Portfolio/Projects section
-Contact section with form integration
-Mobile-friendly navigation
-Clean and professional layout
-🛠️ Technologies Used
-🌐 Frontend
-HTML5
-CSS3
-JavaScript
-🎨 Design
-Custom CSS Animations
-Responsive Design using Media Queries
-Modern UI/UX Layout
-🔧 Tools
-VS Code
-Git & GitHub
-📂 Project Structure
+# 💼 Portfolio Website
+
+## 🚀 Features
+
+- Fully responsive portfolio website
+- Modern dark-themed UI design
+- Smooth scrolling effects
+- Interactive animations
+- Skills showcase section
+- Portfolio/Projects section
+- Contact section with form integration
+- Mobile-friendly navigation
+- Clean and professional layout
+
+---
+
+## 🛠️ Technologies Used
+
+### 🌐 Frontend
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+
+### 🎨 Design
+- Custom CSS Animations
+- Responsive Design using Media Queries
+- Modern UI/UX Layout
+
+### 🔧 Tools
+- **VS Code**
+- **Git & GitHub**
+
+---
+
+## 📂 Project Structure
+
+```bash
 KunalPortfolio2/
 │
 ├── Assets/
@@ -32,6 +46,17 @@ KunalPortfolio2/
 ├── style.css
 ├── script.js
 └── README.md
-📊 Deployment & File Flow Diagram
+```
+
+---
+
+## 📊 Deployment & File Flow Diagram
 
 The following diagram represents the structure and deployment flow of the portfolio website.
+
+![Portfolio Architecture Diagram](Assets/diagram.png)
+
+
+---
+
+⭐️ **Thank you for visiting my portfolio!** If you like this project, don’t forget to give it a star!
