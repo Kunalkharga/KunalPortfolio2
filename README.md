@@ -30,16 +30,6 @@
 ### 🔧 Tools
 - **VS Code**
 - **Git & GitHub**
-
----
-
-## 📊 Deployment & File Flow Diagram
-
-The following diagram represents the structure and deployment flow of the portfolio website.
-
-![Portfolio Architecture Diagram](Image/diagram.png)
-
-
 ---
 
 ⭐️ **Thank you for visiting my portfolio!** If you like this project, don’t forget to give it a star!
