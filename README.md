@@ -1,4 +1,5 @@
 # 💼 Portfolio Website
+🔗 **Live Website**: [Kunal Portfolio 2](https://kunalkharga.vercel.app/)
 
 ## 🚀 Features
 
@@ -54,7 +55,7 @@ KunalPortfolio2/
 
 The following diagram represents the structure and deployment flow of the portfolio website.
 
-![Portfolio Architecture Diagram](Assets/diagram.png)
+![Portfolio Architecture Diagram](Image/diagram.png)
 
 
 ---
