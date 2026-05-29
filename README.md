@@ -33,24 +33,6 @@
 
 ---
 
-## 📂 Project Structure
-
-```bash
-KunalPortfolio2/
-│
-├── Assets/
-│   ├── images/
-│   ├── css/
-│   └── js/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
----
-
 ## 📊 Deployment & File Flow Diagram
 
 The following diagram represents the structure and deployment flow of the portfolio website.
