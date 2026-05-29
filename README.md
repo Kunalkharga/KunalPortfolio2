@@ -1,5 +1,5 @@
 # 💼 Portfolio Website
-🔗 **Live Website**: (https://kunalkharga.vercel.app/)
+🔗 **Live Website**: (kunalkharga.vercel.app)
 
 ## 🚀 Features
 
