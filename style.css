@@ -339,6 +339,12 @@ nav a:hover {
     font-size: 3rem;
 }
 
+.skill img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+}
+
 /* Colorful icons */
 .fa-html5 {
     color: #e44d26;
@@ -966,6 +972,11 @@ footer .container {
     font-size: 2.5rem;
   }
   
+  .skill img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
   .education-item {
     margin-left: 60px;
     padding: 20px;
@@ -1084,6 +1095,11 @@ footer .container {
     font-size: 2rem;
   }
   
+  .skill img {
+    width: 2rem;
+    height: 2rem;
+  }
+  
   .skills-grid {
     animation: scroll 15s linear infinite;
     
@@ -1124,6 +1140,11 @@ footer .container {
   
   .skill i {
     font-size: 1.8rem;
+  }
+  
+  .skill img {
+    width: 1.8rem;
+    height: 1.8rem;
   }
 }
 
